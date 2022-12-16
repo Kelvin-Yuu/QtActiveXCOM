@@ -1,0 +1,51 @@
+﻿  ActiveQtServer.cpp
+  LINK : 没有找到 D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\ActiveQtServer.exe 或上一个增量链接没有生成它；正在执行完全链接
+    正在创建库 D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\ActiveQtServer.lib 和对象 D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\ActiveQtServer.exp
+Qt5AxServerd.lib(qaxserver.obj) : warning LNK4099: 未找到 PDB“Qt5AxServerd.pdb”(使用“Qt5AxServerd.lib(qaxserver.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxServerd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxServerd.lib(qaxserverbase.obj) : warning LNK4099: 未找到 PDB“Qt5AxServerd.pdb”(使用“Qt5AxServerd.lib(qaxserverbase.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxServerd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxServerd.lib(qaxbindable.obj) : warning LNK4099: 未找到 PDB“Qt5AxServerd.pdb”(使用“Qt5AxServerd.lib(qaxbindable.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxServerd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxServerd.lib(qaxfactory.obj) : warning LNK4099: 未找到 PDB“Qt5AxServerd.pdb”(使用“Qt5AxServerd.lib(qaxfactory.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxServerd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxServerd.lib(qaxservermain.obj) : warning LNK4099: 未找到 PDB“Qt5AxServerd.pdb”(使用“Qt5AxServerd.lib(qaxservermain.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxServerd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxServerd.lib(qaxserverdll.obj) : warning LNK4099: 未找到 PDB“Qt5AxServerd.pdb”(使用“Qt5AxServerd.lib(qaxserverdll.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxServerd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxServerd.lib(qaxtypes.obj) : warning LNK4099: 未找到 PDB“Qt5AxServerd.pdb”(使用“Qt5AxServerd.lib(qaxtypes.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxServerd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxBased.lib(qaxtypefunctions.obj) : warning LNK4099: 未找到 PDB“Qt5AxBased.pdb”(使用“Qt5AxBased.lib(qaxtypefunctions.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxBased.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+Qt5AxBased.lib(qaxutils.obj) : warning LNK4099: 未找到 PDB“Qt5AxBased.pdb”(使用“Qt5AxBased.lib(qaxutils.obj)”或在“D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\Qt5AxBased.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  ActiveQtServer.vcxproj -> D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\ActiveQtServer.exe
+  
+  
+  x64\Debug\\ActiveQtServer.idl
+  
+  Microsoft (R) 32b/64b MIDL Compiler Version 8.01.0628 
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  Processing x64\Debug\\ActiveQtServer.idl
+  ActiveQtServer.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ocidl.idl
+  ocidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oleidl.idl
+  oleidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.idl
+  servprov.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.idl
+  urlmon.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\msxml.idl
+  msxml.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oaidl.acf
+  oaidl.acf
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ocidl.acf
+  ocidl.acf
+  Type library attached to D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\ActiveQtServer.exe.
+  Server registered successfully!

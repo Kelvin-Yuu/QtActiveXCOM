@@ -1,0 +1,127 @@
+/****************************************************************************
+** Interface definition generated for ActiveQt project
+**
+**     'D:\_code\_Test\QtActiveCom\ActiveQtServer\x64\Debug\ActiveQtServer.exe'
+**
+** Created:  ÷‹ŒÂ 12‘¬ 16 18:34:06 2022
+**
+** WARNING! All changes made in this file will be lost!
+****************************************************************************/
+
+import "ocidl.idl";
+#include <olectl.h>
+
+[
+	uuid(3C98A247-EC4A-4D68-9E1A-2A3AEDC7DBAD),
+	version(1.0),
+	helpstring("ActiveQtServer 1.0 Type Library")
+]
+library ActiveQtServerLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	/************************************************************************
+	** If this causes a compile error in MIDL you need to upgrade the
+	** Platform SDK you are using. Download the SDK from msdn.microsoft.com
+	** and make sure that both the system and the Visual Studio environment
+	** use the correct files.
+	**
+	************************************************************************/
+
+	[uuid(34030F30-E359-4FE6-AB82-39766F5D91EE)]
+	struct QRect {
+		int left;
+		int top;
+		int right;
+		int bottom;
+	};
+
+	[uuid(CB5F84B3-29E5-491D-BA18-5472488EEFBA)]
+	struct QSize {
+		int width;
+		int height;
+	};
+
+	[uuid(3BE838A3-3FAC-BFC4-4C6C-37C44D030252)]
+	struct QPoint {
+		int x;
+		int y;
+	};
+
+	/* Forward declaration of classes that might be used as parameters */
+
+	coclass OutputHelper;
+
+
+	enum MousePointer {
+		ArrowCursor             = 0,
+		UpArrowCursor           = 1,
+		CrossCursor             = 2,
+		WaitCursor              = 3,
+		IBeamCursor             = 4,
+		SizeVerCursor           = 5,
+		SizeHorCursor           = 6,
+		SizeBDiagCursor         = 7,
+		SizeFDiagCursor         = 8,
+		SizeAllCursor           = 9,
+		BlankCursor             = 10,
+		SplitVCursor            = 11,
+		SplitHCursor            = 12,
+		PointingHandCursor      = 13,
+		ForbiddenCursor         = 14,
+		WhatsThisCursor         = 15,
+		BusyCursor	= 16
+	};
+
+	enum FocusPolicy {
+		NoFocus             = 0,
+		TabFocus            = 1,
+		ClickFocus          = 2,
+		StrongFocus         = 11,
+		WheelFocus          = 15
+	};
+
+
+	[
+		uuid(FB298DC5-6AE0-4E86-92C8-DF06105797B4),
+		helpstring("OutputHelper Interface")
+	]
+	dispinterface IOutputHelper
+	{
+	properties:
+
+	methods:
+		[id(1)] void ReceiveFromClient([in] BSTR p0);
+	};
+
+	[
+		uuid(37FB2D8B-F98F-4352-8E69-251FBB87AA4F),
+		helpstring("OutputHelper Events Interface")
+	]
+	dispinterface IOutputHelperEvents
+	{
+	properties:
+	methods:
+	/****** Signal parameter uses unsupported datatype
+		[id(1)] void destroyed([in] QObject p0);
+	******/
+		[id(2)] void destroyed_1();
+		[id(3)] void objectNameChanged([in] BSTR p_objectName);
+		[id(4)] void sendToClient([in] BSTR p_msg);
+		[id(5)] void isclose();
+		[id(6)] void ReceiveFromClient_SC([in] BSTR p_msg);
+	};
+
+	[
+		aggregatable,
+		appobject,
+		helpstring("OutputHelper Class"),
+		uuid(CD36361D-A1BA-4B83-8AD4-D485EF796AD6)
+	]
+	coclass OutputHelper
+	{
+		[default] dispinterface IOutputHelper;
+		[default, source] dispinterface IOutputHelperEvents;
+	};
+};
